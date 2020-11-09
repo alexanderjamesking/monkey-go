@@ -1,4 +1,7 @@
-all: lexer-test parser-test
+all: ast-test lexer-test parser-test
+
+ast-test:
+	go test -v ./ast
 
 lexer-test:
 	go test -v ./lexer
