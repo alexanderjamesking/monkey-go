@@ -1,3 +1,5 @@
+// Package token
+
 package token
 
 type TokenType string

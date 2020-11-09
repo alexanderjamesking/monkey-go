@@ -1,3 +1,5 @@
+// Package repl
+
 package repl
 
 import (
@@ -14,7 +16,7 @@ func Start(in io.Reader, out io.Writer) {
 	scanner := bufio.NewScanner(in)
 
 	for {
-		fmt.Printf(PROMPT)
+		fmt.Println(PROMPT)
 		scanned := scanner.Scan()
 
 		if !scanned {

@@ -1,3 +1,5 @@
+// Package lexer
+
 package lexer
 
 import "monkey/token"
