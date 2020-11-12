@@ -1,10 +1,4 @@
-all: ast-test lexer-test parser-test
+all: test
 
-ast-test:
-	go test -v ./ast
-
-lexer-test:
-	go test -v ./lexer
-
-parser-test:
-	go test -v ./parser
+test:
+	go test -v ./...
